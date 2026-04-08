@@ -53,3 +53,24 @@ dkms.conf
 
 # debug information files
 *.dwo
+# Common Files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.vscode/
+*.tgz
+
+# Build Artifacts
+build/
+mainProgram/build/
+
+# Training Artifacts
+runs/
+datasets/
+
+# Model Files
+*.onnx
+*.pt
+*.yaml
